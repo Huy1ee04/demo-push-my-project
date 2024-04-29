@@ -1,0 +1,8 @@
+1, Những khai báo hợp lệ trong interface là:
++ public static int answer = 42;
++ final static int answer = 42;
+2, Một class không thể tự kế thừa nó. Java sẽ báo lỗi biên dịch.
+3, Nếu lớp cha và lớp con có thuộc tính trùng tên thì thuộc tính lớp con sẽ đè lên thuộc tính lớp cha khi truy cập vào một thể hiện của lớp con.
+4, Khẳng định đó là sai. Phương thức khởi tạo không được kế thừa xuống lớp con. Mỗi lớp đều có phương thức khởi tạo và phương thức khởi tạo của lớp cha phải được khai báo một cách tường minh bằng từ khoá 'super' trong lớp con.
+5, Có, chúng ta có thể tạo phương thức khởi tạo cho các lớp trừu tượng nhưng các phương thức khởi tạo chỉ có thể được gọi khi các lớp con cụ thể được tạo ra.
+6, Không thể khai báo phương thức protected trong interface vì interface chỉ có thể chứa các phương thức public không tường minh.
